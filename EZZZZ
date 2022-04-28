@@ -1,0 +1,23 @@
+
+local v1 = 0
+local v2 = 99999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+local player = game.Players.LocalPlayer.Character
+
+
+while true do
+
+local l = game.Workspace.Storage.End["WinBrick"]
+player.HumanoidRootPart.CFrame = l.CFrame
+wait(0.1)
+
+
+v1 = v1 + 1
+
+if v1 == v2 then
+break
+
+
+end
+end
